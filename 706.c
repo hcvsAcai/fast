@@ -8,7 +8,7 @@ int main ()
      printf("請輸入x, y的值: ");
      scanf("%d %d", &x, &y);
      result=exp(5)*sqrt((pow(x, y)+log(100))/pow(x, 2)*pow(y, 3));
-     printf("result=%f\n", result);
+     printf("result=%f\n", result);//%lf
      return 0;
 }*/
 #include <stdio.h>

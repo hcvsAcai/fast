@@ -20,7 +20,7 @@ int main ()
      double result;
      printf("請輸入x, y的值: ");
      scanf("%d %d", &x, &y);
-     result=(exp(5)*sqrt(pow(x, y)+log(100))/pow(x, 2))*pow(y, 3);
+     result=(exp(5)*sqrt(pow(x, y)+log(100))/pow(x, 2))*pow(y, 3);//!(exp(5)*sqrt!(pow(x, y)+log(100))/pow(x, 2))!*pow(y, 3)!
      printf("result=%lf\n", result);
      return 0;
 }

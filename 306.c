@@ -3,12 +3,12 @@
 
 int main()
 {
-     int arr[5]={10, 20, 30, 40, 50, 60};\\[6]
+     int arr[5]={10, 20, 30, 40, 50, 60};
      int i, total=0;
-     for (i=1; i<6; i++) {\\i=0
+     for (i=1; i<6; i++) {
           total += arr[i];
      }
-     printf("總和為%f\n", total);\\%d
+     printf("總和為%f\n", total);
      return 0;
 }*/
 #include <stdio.h>
@@ -16,11 +16,11 @@ int main()
 
 int main()
 {
-     int arr[6]={10, 20, 30, 40, 50, 60};
+     int arr[6]={10, 20, 30, 40, 50, 60};\\[6]
      int i, total=0;
-     for (i=0; i<6; i++) {
+     for (i=0; i<6; i++) {\\i=0
           total += arr[i];
      }
-     printf("總和為%d\n", total);
+     printf("總和為%d\n", total);\\%d
      return 0;
 }

@@ -43,7 +43,7 @@ int main ()
           double d;
           int i;
      };
-     union dataType dT;
+     union dataType dT;//修改dataType的宣告，前方加union
      printf("請輸入d的變數值: ");//將兩變數分開輸入和顯示
  	scanf("%lf", &dT.d);  
  	printf("%lf\n", dT.d);

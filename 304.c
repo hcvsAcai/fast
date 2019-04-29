@@ -13,10 +13,11 @@ int main()
 
 void callFun()
 {
-     int ai=100, si=100;
+     int ai=100, si=100;\\static
+     \\auto int ai=100;
      ai++;
      si++;
-     printf("ai=%d, si=%d", ai, si);
+     printf("ai=%d, si=%d", ai, si);\\    \n
 }*/
 #include <stdio.h>
 #include <stdlib.h>

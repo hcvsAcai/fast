@@ -14,7 +14,7 @@ int main ()
 #include <stdlib.h>
 int main () 
 {
-     char str[15]="Apple iPhone 4";
+     char str[15]="Apple iPhone 4";//15
      char sttr[]={'i', 'P', 'a', 'd'};
      char *pstr="Apple iPod";
      printf("str字串如下: %s\n", str);

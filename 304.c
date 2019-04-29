@@ -13,11 +13,10 @@ int main()
 
 void callFun()
 {
-     int ai=100, si=100;\\static
-     \\auto int ai=100;
+     int ai=100, si=100;
      ai++;
      si++;
-     printf("ai=%d, si=%d", ai, si);\\    \n
+     printf("ai=%d, si=%d", ai, si);
 }*/
 #include <stdio.h>
 #include <stdlib.h>
@@ -34,9 +33,9 @@ int main()
 
 void callFun()
 {
-     static int  si=100;
-     auto int   ai=100;
+     static si=100;//static->si
+     auto ai=100;//auto->ai
      ai++;
      si++;
-     printf("ai=%d, si=%d\n", ai, si);
+     printf("ai=%d, si=%d\n", ai, si);\\ \n
 }

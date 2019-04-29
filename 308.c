@@ -5,23 +5,24 @@ double sum(double a[], int n);
 int main () 
 {
      double arr[5];
-     int i, total;
+     \\double total=0;
+     int i;
      for(i=0; i<5; i++) {
           printf("請輸入陣列arr[%d]元素值: ", i);
-          scanf("%lf", arr[i]);
+          scanf("%lf", arr[i]);\\&
      }
      for(i=0; i<5; i++)
           printf("arr[%d]=%.2f\n", i, arr[i]);
-     total=sum(arr);
+     total=sum(arr);\\,i
      printf("此陣列的總和為%.2f\n", total);
      return 0;
 }
 
-double sum(int a[], int n)
+double sum(int a[], int n)\\double
 {
      int k;
-     double tot;
-     for(k=1; k<n; k++)
+     double tot;\\=0
+     for(k=1; k<n; k++)\\=0
           tot += a[k];
      return tot;
 }*/

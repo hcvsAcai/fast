@@ -7,7 +7,7 @@ int main ()
      printf("請輸入您的分數: ");
      scanf("%d", &score);
 
-     adjust(score);\\final=
+     adjust(score);
 
      printf("調整後的分數: %d", final);
      return 0;
@@ -15,11 +15,11 @@ int main ()
 
 int adjust(int score)
 {
-\\int temp;
+     int temp;
      if (score >= 60) 
-          temp = score + 10;\\+5
+          temp = score + 10;
      else 
-          temp = score + 5;\\+10
+          temp = score + 5;
 
      return temp;
 }*/
@@ -31,16 +31,16 @@ int main ()
  int score, final;
  printf("請輸入您的分數: ");
  scanf("%d", &score);
- final = adjust(score);
+ final = adjust(score);\\final=
  printf("調整後的分數: %d", final);
  return 0;
 }
 int adjust(int score)
 {
- int temp;
+ int temp;// int
  if (score >= 60)
-  temp = score + 5;
+  temp = score + 5;//5
  else
-  temp = score + 10;
+  temp = score + 10;//10
  return temp;
 }

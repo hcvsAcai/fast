@@ -8,7 +8,7 @@ int main ()
      scanf("%d", &num);
      triple_num = TRIPLE(num);
      printf("%d的三次方為%d\n", triple_num);
-     triple_num = TRIPLE(4+1);
+     triple_num = TRIPLE(4+1);//((4+1))
      printf("5的三次方為%d\n", triple_num);
      return 0;
 }*/

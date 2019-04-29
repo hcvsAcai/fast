@@ -22,8 +22,8 @@ int main ()
      scanf("%lf %d", &dT.d, &dT.i); 
 /* 印出dT變數中的d和i */
      printf("%f %d ", dT.d, dT.i);
-     return 0;
-}*/
+     return 0;*/
+//}
 #include <stdio.h>
 #include <stdlib.h>
 /* 若沒有定義Knum, 則加以定義為1000 */
